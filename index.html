@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
+<head>
+<!--[if IE]>
+<p style="color:white; font-family:comic sans ms; font-size:200px">please dont use internet explorer</p>
+<![endif]-->
+<title>test</title>
+</head>
 <body style="background-image:url('assets/checker.png')">
 <style>
 @font-face {
     font-family: NiseSegaSonic;
-    src: url(master/fonts/NiseSegaSonic.TTF);
+    src: url(master/fonts/NiseSegaSonic.ttf);
 }
-body {
+.dylan {
     font-family: NiseSegaSonic;
-	font-size:25px
+	font-size:25px;
+	color:white;
+	outline-width:medium;
+	outline-style:solid;
+	outline-color:black;
 }
+.help {
+	color:white;
+	font-size:18px
+	font-family: Times New Roman;
 </style>
-<p style="color:white; outline-width:medium; outline-style:solid; outline-color:black"; align="center">Checker Art</p>
+<p class="dylan" align=center>Checker Art</p>
+<a href="master/pages/A.html" class="help">Page A</a>
 </body>
-<!--[if IE]>
-<p style="color:white; font-family:comic sans ms; font-size:200px">please dont use internet explorer</p>
-<![endif]-->
-<head>
-<title>test</title>
-</head>
 </html>
